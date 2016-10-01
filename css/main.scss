@@ -1,0 +1,43 @@
+---
+---
+@import 'colors';
+@import 'fonts';
+@import 'util';
+
+body {
+    font-family: $font-body;
+    color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-header;
+    font-weight: 200;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navigation-item {
+    text-transform: lowercase;
+    border-bottom: 5px solid transparent;
+    font-family: $font-navigation;
+    font-size: 1.2em;
+
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+
+    padding: 10px 0;
+
+    &.active {
+        border-bottom: 5px solid $text-color;
+    }
+}

@@ -1,0 +1,13 @@
+.u-center {
+    text-align: center;
+}
+
+.u-center-mobile {
+    @media (max-width: 399px) {
+        text-align: center;
+    }
+}
+
+.u-no-decoration {
+    text-decoration: none;
+}

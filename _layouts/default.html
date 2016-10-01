@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400|Merriweather+Sans:300,400|Merriweather:900|Raleway:100,200,300,400|Rubik:300,400|Work+Sans:100,200,300,400" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns u-center-mobile">
+                <a class="u-no-decoration" href="/"><img src="/images/beetlebob.jpg"></a>
+            </div>
+        </div>
+
+        <header class="row">
+            <ul class="navigation">
+                {% for node in page.navigation %}
+                        {% assign nav_text = node[0] %}
+                        {% assign nav_url = node[1] %}
+
+                        {% if page.url == nav_url %}
+                            <li class="navigation-item active"><a href="{{ nav_url }}">{{ nav_text }}</a></li>
+                        {% else %}
+                            <li class="navigation-item"><a href="{{ nav_url }}">{{ nav_text }}</a></li>
+                        {% endif %}
+                {% endfor %}
+            </ul>
+        </header>
+
+        {{ content }}
+    </div>
+</body>
+</html>
