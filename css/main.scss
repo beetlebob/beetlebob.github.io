@@ -4,6 +4,10 @@
 @import 'fonts';
 @import 'util';
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: $font-body;
     color: $text-color;
@@ -16,6 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+.brand-image {
+    padding: 10px 0;
+    max-height: 150px;
 }
 
 .navigation {
@@ -39,5 +48,9 @@ img {
 
     &.active {
         border-bottom: 5px solid $text-color;
+    }
+
+    @media (max-width: 399px) {
+        font-size: 1em;
     }
 }
