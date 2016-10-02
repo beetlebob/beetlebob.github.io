@@ -1,4 +1,3 @@
-
 ---
 title: octo tako
 img: /images/octo tako 2.svg
