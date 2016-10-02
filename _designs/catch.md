@@ -1,5 +1,5 @@
 ---
-title: catch (taiwan #1)
+title: catch 
 img: /images/catch choco.jpg
 
 categories:
