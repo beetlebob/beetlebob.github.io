@@ -1,5 +1,5 @@
 ---
-title: leave me be
+title: kindly f off
 img: /images/idkfuck.jpg
 categories:
     - illustrations
