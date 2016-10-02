@@ -1,6 +1,6 @@
 ---
 title: hypnotic
-img:/images/hypnotik2 bw rgb.jp 
+img: /images/hypnotik2 bw rgb.jpg 
 categories:
     - illustrations
 ---
