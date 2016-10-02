@@ -1,6 +1,7 @@
 ---
 title: catch (taiwan #1)
 img: /images/catch choco.jpg
+categories:
     - digital
 ---
 
