@@ -5,7 +5,7 @@ permalink: /illustrations
 {% assign loopindex = 0 %}
 {% for design in site.designs %}
     {% if design.categories contains "illustrations" %}
-        {% cycle 'add row' : '<div class="row">', nil, nil %}
+        {% cycle 'add row' : '<div class="row images">', nil, nil %}
 
         {% include design-tile.html %}
 
