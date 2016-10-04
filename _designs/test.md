@@ -1,5 +1,5 @@
 ---
-title: beetlebobity boop
+title: WIP section
 img: /images/FullSizeRender.jpg
 categories:
     - prints
