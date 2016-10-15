@@ -38,6 +38,7 @@ defaults:
           digital: /digital
           prints: /prints
           shop: /shop
+          about me,: /aboutme
   - scope:
       path: ""
       type: designs
