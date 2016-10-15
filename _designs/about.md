@@ -2,6 +2,6 @@
 title: magik
 img: /images/fuckingmagik 1 RGB.jpg
 categories:
-    - about me
+    - aboutme
 ---
 Blah Blah
