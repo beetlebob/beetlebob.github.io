@@ -58,7 +58,15 @@ img {
 }
 
 .images {
+    $img-spacing: 2em;
+
     & + & {
-        margin-top: 2em;    
+        margin-top: $img-spacing;
+    }
+
+    @media (max-width: 549px) {
+        .four.columns + .four.columns {
+            margin-top: $img-spacing;
+        }
     }
 }
