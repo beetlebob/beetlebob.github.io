@@ -5,7 +5,7 @@ permalink: /shop
 {% assign loopindex = 0 %}
 {% for design in site.designs %}
     {% if design.categories contains "shop" %}
-        {% cycle 'add row' : '<div class="row images">', nil, nil %}
+        {% cycle 'add row' : '<div class="row tiles">', nil, nil %}
 
         {% include design-tile.html %}
 

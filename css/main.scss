@@ -57,7 +57,7 @@ img {
     }
 }
 
-.images {
+.tiles {
     $img-spacing: 2em;
 
     & + & {
@@ -78,4 +78,13 @@ img {
 
 .project-tile-header {
     font-weight: 400;
+}
+
+.instagram-logo {
+    height: 40px;
+    width: auto;
+}
+
+footer {
+    margin-top: 2em;
 }

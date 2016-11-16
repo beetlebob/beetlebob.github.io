@@ -4,7 +4,7 @@ permalink: /projects/index.html
 ---
 {% assign loopindex = 0 %}
 {% for project in site.projects %}
-    {% cycle 'add row' : '<div class="row">', nil, nil %}
+    {% cycle 'add row' : '<div class="row tiles">', nil, nil %}
 
         {% include project-tile.html %}
 
