@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /projects/index.html
+---
+{% assign loopindex = 0 %}
+{% for project in site.projects %}
+    {% cycle 'add row' : '<div class="row">', nil, nil %}
+
+        {% include project-tile.html %}
+
+    {% cycle 'end row' : nil, nil, '</div>' %}
+{% endfor %}
+{% cycle 'end row' : nil, '</div>', '</div>' %}

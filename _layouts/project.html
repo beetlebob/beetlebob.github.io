@@ -1,12 +1,9 @@
 ---
 layout: default
-permalink: /illustrations
-subcategories:
-    proj1: /illustrations/proj1
 ---
 {% assign loopindex = 0 %}
 {% for design in site.designs %}
-    {% if design.categories contains "illustrations" %}
+    {% if design.project == page.name %}
         {% cycle 'add row' : '<div class="row images">', nil, nil %}
 
         {% include design-tile.html %}

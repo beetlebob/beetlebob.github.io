@@ -5,7 +5,7 @@ permalink: /
 
 {% assign loopindex = 0 %}
 {% for design in site.designs %}
-    <!--  Liquid's boolean logic is very weak - this replaces a 3 way OR conditional -->
+    <!--  Liquid's boolean logic is very weak - this replaces a 4 way OR conditional -->
     {% if design.categories contains "digital" %}
         {% assign show_design = true %}
     {% endif %}
@@ -15,6 +15,10 @@ permalink: /
     {% endif %}
 
     {% if design.categories contains "print" %}
+        {% assign show_design = true %}
+    {% endif %}
+
+    {% if design.categories contains "projects" %}
         {% assign show_design = true %}
     {% endif %}
 

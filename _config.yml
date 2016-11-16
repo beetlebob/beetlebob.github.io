@@ -37,14 +37,21 @@ defaults:
           illustrations: /illustrations
           digital: /digital
           prints: /prints
-          shop: /shop
-          about me: /aboutme
+          projects: /projects
   - scope:
       path: ""
       type: designs
     values:
       layout: design
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
 
 collections:
-  designs:
-    output: true
+    designs:
+        output: true
+
+    projects:
+        output: true
