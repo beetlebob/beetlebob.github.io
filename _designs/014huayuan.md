@@ -1,6 +1,6 @@
 ---
 title: huan yuan
-img: /images/hua yuan rgb.jpg
+img: /images/hua_yuan 1000x1000.jpg
 categories:
     - digital
 ---
