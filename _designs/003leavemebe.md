@@ -1,6 +1,6 @@
 ---
 title: kindly f off
-img: /images/idkfuck.jpg
+img: /images/idkfuck 1000x1000.jpg
 categories:
     - illustrations
 ---
