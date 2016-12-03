@@ -1,6 +1,6 @@
 ---
 title: the present is here
-img: /images/ricky weird rgb.jpg
+img: /images/ricky 1000x1000.jpg
 categories:
   - digital
 ---
