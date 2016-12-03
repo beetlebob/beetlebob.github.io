@@ -1,6 +1,6 @@
 ---
 title: dinner in nyc
-img: /images/pigeon color rgb.jpg
+img: /images/pigeon_color 1000x1000.jpg
 categories:
     - digital
 ---
