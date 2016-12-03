@@ -1,6 +1,6 @@
 ---
 title: catch 
-img: /images/catch choco.jpg
+img: /images/catch_choco 1000x1000.jpg
 
 categories:
     - digital
