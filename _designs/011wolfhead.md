@@ -1,6 +1,6 @@
 ---
 title: wolf head
-img: /images/wolf head trace the shadow2.jpg
+img: /images/wolf_head 1000x1000.jpg
 categories:
     - illustrations
 ---
