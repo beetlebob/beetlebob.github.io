@@ -1,6 +1,6 @@
 ---
 title: beetlebobity boop
-img:/images/beetlebobity_boop 1000x1000.jpg
+img: /images/beetlebobity_boop 1000x1000.jpg
 categories:
     - illustrations
 ---
