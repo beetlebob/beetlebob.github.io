@@ -36,8 +36,8 @@ defaults:
       navigation:
           illustrations: /illustrations
           digital: /digital
-          prints: /prints
           projects: /projects
+          about me: /about-me
           <i class="fa fa-shopping-basket" aria-hidden="true"></i> shop: http://beetlebob.bigcartel.com/
   - scope:
       path: ""
