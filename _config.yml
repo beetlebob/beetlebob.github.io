@@ -38,7 +38,7 @@ defaults:
           digital: /digital
           prints: /prints
           projects: /projects
-          shop: http://beetlebob.bigcartel.com/
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i> shop: http://beetlebob.bigcartel.com/
   - scope:
       path: ""
       type: designs
