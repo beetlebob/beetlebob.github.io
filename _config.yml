@@ -38,7 +38,7 @@ defaults:
           digital: /digital
           projects: /projects
           about me: /about-me
-          <i class="fa fa-shopping-basket" aria-hidden="true"></i> shop: http://beetlebob.bigcartel.com/
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i> shop: https://www.etsy.com/shop/beetlebobart?ele=shop_open
   - scope:
       path: ""
       type: designs
